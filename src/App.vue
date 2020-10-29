@@ -12,7 +12,9 @@ export default {
     SearchBar,
   },
   methods: {
-    onTermChange() {},
+    onTermChange(searchTerm) {
+      console.log(searchTerm);
+    },
   },
 };
 </script>
