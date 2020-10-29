@@ -1,7 +1,20 @@
 <template>
-  <div id="app">Hi there</div>
+  <div id="app">
+    <SearchBar @termChange="onTermChange"></SearchBar>
+  </div>
 </template>
 
 <script>
-export default {};
+import SearchBar from "./components/SearchBar";
+export default {
+  name: "App",
+  components: {
+    SearchBar,
+  },
+  methods: {
+    onTermChange(searchTerm) {
+      console.log(searchTerm);
+    },
+  },
+};
 </script>
