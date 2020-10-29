@@ -1,7 +1,15 @@
 <template>
-  <div id="app">Hi there</div>
+  <div id="app">
+    <SearchBar></SearchBar>
+  </div>
 </template>
 
 <script>
-export default {};
+import SearchBar from "./components/SearchBar";
+export default {
+  name: "App",
+  components: {
+    SearchBar,
+  },
+};
 </script>
