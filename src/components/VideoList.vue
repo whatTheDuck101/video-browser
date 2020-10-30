@@ -6,6 +6,9 @@
 <script>
 export default {
   name: "VideoList",
+  props: {
+    videos: Array,
+  },
 };
 </script>
 <style></style>
