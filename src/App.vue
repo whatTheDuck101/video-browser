@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <SearchBar @termChange="onTermChange"></SearchBar>
-    <VideoList></VideoList>
-    {{ videos.length }}
+    <VideoList :videos="videos"></VideoList>
   </div>
 </template>
 
