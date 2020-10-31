@@ -15,8 +15,9 @@ export default {
   computed: {
     thumbnailUrl() {
       return this.video.snippet.thumbnails.default.url;
-    }
+    },
   }
+}
 </script>
 <style scoped>
 li {
