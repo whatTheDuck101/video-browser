@@ -22,7 +22,7 @@ export default {
       this.$emit('videoSelect', this.video);
     }
   }
-};
+}
 </script>
 <style scoped>
 li {
